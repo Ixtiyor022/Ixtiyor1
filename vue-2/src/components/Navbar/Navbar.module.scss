@@ -1,0 +1,79 @@
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 79px;
+    z-index: 10;
+
+    &_body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &_logo {
+      cursor: pointer;
+    }
+    &_menu {
+        display: flex;
+        align-items: center;
+        height: 59px;
+        max-width: 460px;
+        margin-left: 238px;
+
+        &_item:not(:last-child) {
+        }
+    
+        &_link {
+          color: var(--dark-white-d20);
+          font-size: 18px;
+          font-weight: 500;
+          margin-left: 28px;
+          color: #444444;
+
+          &.active {
+            color: black
+          }
+        }
+      }
+    &_btn2 {
+        width: 143px;
+        height: 44px;
+        background-color: #575445;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;    
+        border-radius: 6px;  
+        color: white;
+        padding-top: 10px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    &_button1 {
+        color: white;
+        background-color: #575445;
+        border-radius: 6px;
+        width: 125px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    &_btn3 {
+      margin-left: 22px;
+    }
+    &_span {
+      margin: 0 8px;
+    }
+    &_btn1 {
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      background-color: white;
+      color: #575445;
+      padding: 2px 6px;
+    }
+
+}

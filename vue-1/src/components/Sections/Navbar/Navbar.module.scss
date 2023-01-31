@@ -1,0 +1,27 @@
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+  position: relative;
+
+  &_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  &_menu {
+    display: flex;
+    align-items: center;
+    color: green;
+
+    &_item {
+      margin: 2px;
+    }
+
+    &_link {
+      font-size: 18px;
+    }
+  }
+}
