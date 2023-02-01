@@ -286,11 +286,55 @@
     color: #ffffff;
   }
 
-
   &_background1 {
     height: 393px;
     width: 1200px;
-    background-color: red;
+    background: #375c58;
+    padding-top: 99px;
+
+    &_shop1 {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: #fafafc;
+    }
+
+    &_check1 {
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 43px;
+      text-align: center;
+      color: #e6b939;
+    }
+
+    &_morbi1 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #fafafc;
+      width: 538px;
+      margin-top: 7px;
+      margin-left: 330px;
+    }
+    &_button1 {
+      width: 111px;
+      height: 44px;
+      background-color: white;
+      color: black;
+      border-radius: 6px;
+      padding: 10px 18px;
+      margin-left: 545px;
+      margin-top: 21px; 
+      text-align: center;
+      cursor: pointer;
+    }
   }
- 
+
+  &_background2 {
+    background-image: url(@/assets/img/background.svg);
+    background-repeat: no-repeat;
+  }
+  
 }

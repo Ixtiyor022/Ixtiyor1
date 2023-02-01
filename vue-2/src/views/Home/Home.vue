@@ -195,9 +195,23 @@
           </div>
         </div>
 
-        <div :class="styles.home_background1">a</div>
-    
+        <div :class="styles.home_background1">
+          <div :class="styles.home_background2">
+            <div :class="styles.home_background1_shop1">Shop</div>
+          <div :class="styles.home_background1_check1">Check out our products.</div>
+          <div :class="styles.home_background1_morbi1">
+            Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+            Vestibulum sit amet urna turpis. Mauris euismod elit et nisi
+            ultrices, ut faucibus orci tincidunt.
+          </div>
+          <div :class="styles.home_background1_button1">
+            Visit shop  
+          </div>
+          </div>
+        </div>
       </Container>
+      <div></div>
+
     </div>
   </div>
 </template>
